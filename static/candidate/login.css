@@ -1,0 +1,90 @@
+* {
+	font-family: "Open Sans Regular";
+}
+
+section {
+	height: 100vh;
+    padding: 8% 5% 0;
+    border-radius: 10px;
+}
+
+h1 {
+	font-size: 3em;
+	color: var(--very-dark-blue);
+}
+
+form {
+	padding: 5%;
+	margin: 3% 0 2%;
+	border-radius: 10px;
+	box-shadow: 0 0 2px 0 gray;
+	background-color: var(--light-grayish-orange);
+}
+
+label {
+	display: block; /*forces the input fields to the next line*/
+	font-size: 1.3em;
+	cursor: pointer;
+}
+
+form input,
+form select { /*form select applies styling to the school of choice dropdown menu in the register page*/
+	width: 100%;
+	height: 2.5em;
+	padding: 2%;
+	margin: 2% 0;
+	border: 1px solid black;
+	border-radius: 10px;
+	background: transparent;
+	transition: 0.3s;
+}
+
+input:hover,
+input:focus,
+select:hover,
+select:focus {
+	border-color: var(--deepblue);
+	background: #fff;
+}
+
+form select {
+	padding: 0 2%; /*removes the top and bottom padding*/
+}
+
+
+option {
+	font-family: sans-serif;
+}
+
+section button {
+	width: 50%;
+	height: 2.5em;
+	margin: 0 auto;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--very-dark-blue);
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: var(--vivid-blue);
+}
+
+form p {
+	margin: 2% 0 0;
+}
+
+form p a {
+	color: var(--vivid-blue);
+}
+
+
+
+@media all and (max-width: 800px) {
+	section {
+		padding-top: 20%;
+	}
+}
