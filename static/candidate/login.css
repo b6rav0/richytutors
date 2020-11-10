@@ -1,3 +1,8 @@
+/*File contains styling for both the login and register pages*/
+/*The same styles apply to both pages automatically*/
+/*only thing different is the addition of a <select> tag to the register page,*/
+/*which takes the same styling as the input fields*/
+
 * {
 	font-family: "Open Sans Regular";
 }
@@ -16,9 +21,6 @@ h1 {
 form {
 	padding: 5%;
 	margin: 3% 0 2%;
-	border-radius: 10px;
-	box-shadow: 0 0 2px 0 gray;
-	background-color: var(--light-grayish-orange);
 }
 
 label {
@@ -85,6 +87,30 @@ form p a {
 
 @media all and (max-width: 800px) {
 	section {
-		padding-top: 20%;
+		padding-top: 25%;
+	}
+	section h1 {
+		font-size: 2em;
+	}
+	label {
+		font-size: 1.2em;
+	}
+	form {
+		position: relative;
+	}
+	form input {
+		margin-bottom: 10%;
+	}
+	::placeholder {
+		font-size: 0.8em;
+	}
+	form select {
+		margin-bottom: 10%;
+	}
+	form button {
+		width: 100%;
+		margin-bottom: 5%;
+		border-radius: 0;
+		font-size: 1em;
 	}
 }
