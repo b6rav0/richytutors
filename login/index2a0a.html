@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <title>Login</title>
-        <meta content="Online Post Utme." name="description">
-        <meta content="Post Utme, Richytutors " name="keywords">
-        <meta name="theme-color" content=" #102a66">
-        <meta name="keywords" content="post ume, Nigerian Schools, unilag, unilorin, yabatech, mock, assu, post jamb, jamb , cutoff, generalpaper, richy, tutors, richututors">
-        <!--Style Sheet link-->
-        <link rel="stylesheet" type="text/css" href="../static/mock/icomoon/style.b43b65ffee55.css">
-        <link rel="icon" href="../static/mock/clipart1504950.ef4638a2ed0e.png" title="logo">         
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="icon" href="../static/mock/clipart1504950.ef4638a2ed0e.png" title="logo">
+    <title>Login | RichyTutors</title>
+    <meta content="Online Post Utme." name="description">
+    <meta content="Post Utme, Richytutors " name="keywords">
+    <meta name="theme-color" content=" #102a66">
+    <meta name="keywords" content="post ume, Nigerian Schools, unilag, unilorin, yabatech, mock, assu, post jamb, jamb , cutoff, generalpaper, richy, tutors, richututors">
+    <!--Icons Link-->
+    <link rel="stylesheet" type="text/css" href="../static/mock/icomoon/style.b43b65ffee55.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="../static/candidate/styles.css">
+    <link rel="stylesheet" type="text/css" href="../static/candidate/login.css">
+
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLK54T2QTP"></script>
@@ -24,139 +29,38 @@
 
 </head>
 <body>
-    <div class="context">
-      <nav style="top: 0%; width: 100%;margin-top: 0px;">
-        <a href="../index.html"><img src="../static/mock/titlelogo.2943d178c970.png" height="50px" width="auto"></a>
-        <div>
-          <a href="../index.html" class="a">Updates</a>
-          <a href="../register/index.html">Register</a>
-          <a href="index.html" class="login">Login</a>
-        </div>
-      </nav>
-    </div>
-</div> 
-<div class="col-md-8">
     
-  </div>
-    <link rel="stylesheet" type="text/css" href="../static/candidate/main.9fcbc5f530bc.css">
-    <!-- icons link -->
-    <section>
-    <form method="POST" class="position">
-        <style>
-            body{
-                background-color: #0a2a66 !important;
-            }
-            section{
-                width: 80%;
-                height: 60vh;
-                padding: 5%;
-                padding-top: 0;
-                margin: 10% auto 0;
-                border-radius: 10px;
-                background-color: white;
-                box-shadow: 0 0 2px 0 gray;
-            }
-            section form legend{
-                padding: 0px;
-                margin: 0px;
-                font-weight: bolder;
-                padding: 9px;
-                display: grid;
-                align-items: center;
-                padding-left: 20px;
-                width: 100%;
-                font-family: "Open Sans Regular";
-                font-size: 93%;
-                background-color: #e6e6e6;
-                border-top-right-radius: 3px;
-                border-top-left-radius: 3px;
-            }
-            section button {
-                display: grid;
-                margin-top: 20px;
-                width: 80%;
-                color: white;
-                background-color: #102a66;
-                margin: auto;
-                padding: 12px;
-                letter-spacing: 0.6px;
-                text-transform: uppercase;
-                font-weight: bold;
-                font-family: "Open Sans Regular";
-                cursor: pointer;
-                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-            }
-            section h4{
-                margin-bottom: 0px;
-                font-family: "Open Sans Regular";
-                font-size: 93%;
-                padding-left: 20px;
-            }
-            form input {
-                border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-                box-sizing: border-box;
-                width: 80%;
-                display: grid;
-                margin: auto;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-left: 5px;
-            }
-            form div > div{
-                font-family: Poppins;
-                font-style: normal;
-                font-weight: 300;
-            }.w-100{
-                font-family: "Open Sans Regular";
-                font-size: 85%;
-            }
-            .w-100 a{
-                font-family: "Open Sans Regular";
-                font-weight: 500;
-                color: #312EBB;
-
-            }
-            .alert strong{
-                font-family: "Open Sans Regular";
-                font-weight: 200;
-                font-size: 90%;
-                color: red;
-            }
-             .border{
-                box-shadow: none !important;
-                transform: scale(1.0);
-            }
-            @media (max-width: 877px){
-                .border {
-                    padding: 0px;
-                    transform: scale(1.0);
-                }
-            }
-
-        </style>
-        <input type="hidden" name="csrfmiddlewaretoken" value="CZwSsmP66tW2TvUni9DcUv8uCvxC91ZViz8gk6HkSpGbRoQTuZJooJV4Xlpi8EWY">
-
-        <div class="form-group col-lg-6 col-sm-10 m-auto border rounded m-auto bg-primary ">
-            <legend class="w-100 text-center text-white h3">Login</legend>
-            
-            <div style="padding-left: 20px;padding-right: 20px;">
-                <div style="margin-top: 15px;"> <input type="text" name="username" autofocus="" autocapitalize="none" autocomplete="username" maxlength="255" required="" id="id_username" placeholder="Registration Number"></div>
-                <div style="margin-top: 15px; margin-bottom: 15px;"><input type="password" name="password" autocomplete="current-password" required="" id="id_password" placeholder="Password"> </div>
-                <button type="submit" id="send">Login</button>
-            </div> 
+    <nav>
+        <a href="index.html"><img src="../static/mock/titlelogo.2943d178c970.png" alt="logo"></a>
+        <div>
+            <a href="../index.html">Home</a>
+            <a href="index.html" class="login">Login/Register</a>
+            <a href="#">Blog</a> <!-- Integrate a wordpress blog or smth -->
+            <a href="#">Contact</a>
+            <a href="#">FAQs</a>
         </div>
-    </form>
-    <strong class="position-absolute text-center w-100 text-dark" style="bottom:10%;">
-        Don't have an account? <a href="../register/index.html">Register</a> <br>
-        <a href="../password_reset/index.html">Forgot Password?</a>
-    </strong>
+    </nav>
+   
+
+    <section>
+        <h1>Login</h1>
+        <form method="POST">
+            <input type="hidden" name="csrfmiddlewaretoken" value="CZwSsmP66tW2TvUni9DcUv8uCvxC91ZViz8gk6HkSpGbRoQTuZJooJV4Xlpi8EWY">
+            
+            <label for = "id_username">JAMB Registration Number</label>
+            <input type="text" name="username" autocapitalize="none" autocomplete="username" minlength="10" maxlength="10" id="id_username" required="" placeholder="Your JAMB Reg. Number e.g. 12345678XY">
+
+            <label for = "id_password">Password</label>
+            <input type="password" name="password" autocomplete="current-password" required="" id="id_password" placeholder="8 Characters or more" minlength="8">
+            <button type="submit" id="send">Login</button>
+            <p>Don't have an account? <a href="../register/index.html">Register</a></p>
+            <p><a href="../password_reset/index.html">Forgot Password?</a></p>
+        </form>
     </section>
-</body>
-<script>
+    <script>
     document.getElementById("Reg-num").childNodes[2].addEventListener("keyup", function (event) {
         event.target.value = event.target.value.toUpperCase();
     })
 </script>
-
-<!-- Mirrored from richytutors.org/login/?next=/account/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 04 Nov 2020 11:37:59 GMT -->
+</body>
 </html>

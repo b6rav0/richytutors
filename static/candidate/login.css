@@ -3,6 +3,8 @@
 /*only thing different is the addition of a <select> tag to the register page,*/
 /*which takes the same styling as the input fields*/
 
+
+
 * {
 	font-family: "Open Sans Regular";
 }
@@ -58,10 +60,23 @@ option {
 	font-family: sans-serif;
 }
 
+input[type = "checkbox"] {
+	display: inline;
+	width: 10px;
+	height: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+label[for = "remember-me"] {
+	font-size: 1em;
+	display: inline-block;
+}
+
 section button {
 	width: 50%;
 	height: 2.5em;
-	margin: 0 auto;
+	margin: 5% auto 0;
     border-radius: 10px;
     color: white;
     background-color: var(--very-dark-blue);
